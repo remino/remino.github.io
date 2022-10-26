@@ -7,15 +7,23 @@ $color-primary: #c41483
 	--color-bg: #fff
 	--color-fg: #000
 	--color-primary: #{$color-primary}
+	--color-shadow: #{rgba($color-primary, 0.2)}
 	--logo-size: 5rem
 
 a
 	color: var(--color-primary)
+	display: block
+	text-shadow: 0 0 0 var(--color-shadow)
+	transform: scale(1)
+	transform-origin: bottom left
+	transition: all 0.1s linear
 
 	&:focus,
 	&:hover
-		filter: brightness(2)
+		color: var(--color-fg)
 		outline: none
+		text-shadow: 0.1rem 0.1rem 0 var(--color-shadow)
+		transform: scale(1.2)
 
 body
 	background: var(--color-bg)
@@ -73,6 +81,7 @@ main
 		--color-bg: #333
 		--color-fg: #fff
 		--color-primary: #{lighten($color-primary, 10%)}
+		--color-shadow: #{rgba($color-primary, 1)}
 
 @media (max-width: 38rem)
 	h1 > img
