@@ -1,71 +1,85 @@
 ---
 ---
 
-@keyframes chill
-	0%, 100%
-		background-color: #B3DFEC
+$color-primary: #c41483
 
-	14.285714285714286%
-		background-color: #B9COEA
-
-	28.57142857142857%
-		background-color: #E8A5CC
-
-	42.857142857142854%
-		background-color: #F282A7
-
-	57.14285714285714%
-		background-color: #F0725C
-
-	71.42857142857143%
-		background-color: #F6AC5A
+\:root
+	--color-bg: #fff
+	--color-fg: #000
+	--color-primary: #{$color-primary}
+	--logo-size: 5rem
 
 a
-	color: rgb(0,0,0)
+	color: var(--color-primary)
 
-body, html
-	width: 100%
+	&:focus,
+	&:hover
+		filter: brightness(2)
+		outline: none
 
 body
-	align-items: center
-	animation: chill 20s infinite linear
-	display: flex
-	flex-flow: column
+	background: var(--color-bg)
+	color: var(--color-fg)
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
-	justify-content: center
-	margin: 0
+	font-weight: 300
+	letter-spacing: 0.02em
+	line-height: 1.6
+	margin: 2rem
 	min-height: 100%
 	padding: 0
 
+dd
+	margin: 0 0 2rem 0
+
+dt
+	font-size: 1.4rem
+	font-weight: 600
+	margin: 2rem 0 0.5rem 0
+
+	> a
+		text-decoration: none
+
 h1
-	font-size: 3rem
-	max-width: 15rem
+	font-size: 2rem
+	font-weight: 300
+	line-height: var(--logo-size)
 	margin: 1em auto
-	text-align: center
 	text-transform: lowercase
 
-	em
-		-webkit-text-stroke: 1px rgb(0,0,0)
-		color: rgb(100%,100%,100%)
-		font-size: 1.2em
-		font-style: normal
+	> img
+		border-radius: 100%
+		display: block
+		float: left
+		height: auto
+		margin-left: calc((var(--logo-size) + 1rem) * -1)
+		margin-right: 1rem
+		width: var(--logo-size)
 
-html
-	height: 100%
+hr
+	border: 0
+	border-bottom: 1px solid var(--color-primary)
+	margin: 2rem 0
+	opacity: 0.5
 
-ul
-	display: flex
-	flex-flow: row wrap
-	justify-content: center
-	list-style: none
-	margin: 0
-	padding: 0
-	text-transform: lowercase
+main
+	box-sizing: border-box
+	margin: 0 auto
+	max-width: 35rem
+	min-width: 15rem
+	padding-left: calc((var(--logo-size) + 1rem))
 
-	li
-		&::after
-			content: '|'
-			padding: 0 0.25em
+@media (prefers-color-scheme: dark)
+	\:root
+		--color-bg: #333
+		--color-fg: #fff
+		--color-primary: #{lighten($color-primary, 10%)}
 
-		&:last-child::after
-			content: ''
+@media (max-width: 38rem)
+	h1 > img
+		margin-left: 0
+
+	main
+		padding-left: 0
+
+strong
+	font-weight: 500

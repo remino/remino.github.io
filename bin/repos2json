@@ -1,0 +1,11 @@
+#!/bin/sh
+
+gh repo list \
+	--no-archived \
+	--source \
+	--limit 200 \
+	--json name,url,homepageUrl,description \
+	--visibility public \
+	| jq --tab 'sort_by(.name) | .' \
+;
+

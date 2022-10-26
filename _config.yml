@@ -1,7 +1,6 @@
-title: remino.github.io
+title: remino@github
 description: Rémino Rem on GitHub
 
-baseurl: /
 domain: remino.github.io
 url: https://remino.github.io
 
@@ -12,6 +11,9 @@ defaults:
       layout: default
 
 exclude:
+  - Gemfile
+  - Gemfile.lock
   - README.md
   - LICENSE.txt
   - jeksite
+  - repos2json

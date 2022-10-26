@@ -1,7 +1,19 @@
 ---
+title: "remino@github"
+---
+# ![remino logo][logo] {{ site.title }}
+
+[github.com/remino][github]
+: **👋 Hi, I'm Rem, a Web developer in Japan.**  
+Above is a link to my profile, and below are my public repos of scripts and other things on GitHub.
+
 ---
 
-# This is your new *jeksite*
+{% for repo in site.data.repos %}
+[{{ repo.name }}]({% if repo.homepageUrl %}{{ repo.homepageUrl }}{% else %}{{ repo.url }}{% endif %})
+: {{ repo.description }}.
 
-- [Site](https://remino.github.io/jeksite/)
-- [GitHub](https://github.com/remino/jeksite)
+{% endfor %}
+
+[github]: https://github.com/remino
+[logo]: https://avatars.githubusercontent.com/u/29999

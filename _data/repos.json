@@ -1,0 +1,266 @@
+[
+	{
+		"description": "Copy several disks one by one in a single directory",
+		"homepageUrl": "",
+		"name": "cpdisks",
+		"url": "https://github.com/remino/cpdisks"
+	},
+	{
+		"description": "Manage download directories",
+		"homepageUrl": "",
+		"name": "dldirs",
+		"url": "https://github.com/remino/dldirs"
+	},
+	{
+		"description": "Move files into separate directories named by their extensions",
+		"homepageUrl": "",
+		"name": "extdirs",
+		"url": "https://github.com/remino/extdirs"
+	},
+	{
+		"description": "Convert file to base64 data URL",
+		"homepageUrl": "",
+		"name": "file2dataurl",
+		"url": "https://github.com/remino/file2dataurl"
+	},
+	{
+		"description": "Quickly find a file by pattern in the current directory using ‘find’",
+		"homepageUrl": "",
+		"name": "findfile",
+		"url": "https://github.com/remino/findfile"
+	},
+	{
+		"description": "From 1 to 100",
+		"homepageUrl": "",
+		"name": "fizzbuzz",
+		"url": "https://github.com/remino/fizzbuzz"
+	},
+	{
+		"description": "Get up and run some things",
+		"homepageUrl": "",
+		"name": "getup",
+		"url": "https://github.com/remino/getup"
+	},
+	{
+		"description": "Library of hashtag helpers",
+		"homepageUrl": "https://www.npmjs.com/package/hashtagalong",
+		"name": "hashtagalong",
+		"url": "https://github.com/remino/hashtagalong"
+	},
+	{
+		"description": "remino/remino Homebrew tap",
+		"homepageUrl": "",
+		"name": "homebrew-remino",
+		"url": "https://github.com/remino/homebrew-remino"
+	},
+	{
+		"description": "List network interfaces and their IP addresses",
+		"homepageUrl": "",
+		"name": "ifip",
+		"url": "https://github.com/remino/ifip"
+	},
+	{
+		"description": "Send notification to IFTTT Webhook using Web request",
+		"homepageUrl": "",
+		"name": "iftttnotify",
+		"url": "https://github.com/remino/iftttnotify"
+	},
+	{
+		"description": "Fit an image into a specific ratio for Instagram",
+		"homepageUrl": "",
+		"name": "igframe",
+		"url": "https://github.com/remino/igframe"
+	},
+	{
+		"description": "Plain and simple Jekyll site template ideal for GitHub Pages",
+		"homepageUrl": "https://remino.github.io/jeksite/",
+		"name": "jeksite",
+		"url": "https://github.com/remino/jeksite"
+	},
+	{
+		"description": "Get and set various settings in macOS",
+		"homepageUrl": "",
+		"name": "maconf",
+		"url": "https://github.com/remino/maconf"
+	},
+	{
+		"description": "Plain and simple Middleman site template",
+		"homepageUrl": "https://remino.github.io/mansite/",
+		"name": "mansite",
+		"url": "https://github.com/remino/mansite"
+	},
+	{
+		"description": "Create .htaccess file for Apache HTTPd to show a stylised directory index",
+		"homepageUrl": "",
+		"name": "mkadindex",
+		"url": "https://github.com/remino/mkadindex"
+	},
+	{
+		"description": "Create Brew release from GitHub release",
+		"homepageUrl": "",
+		"name": "mkbrewrel",
+		"url": "https://github.com/remino/mkbrewrel"
+	},
+	{
+		"description": "Create digest auth .htdigest file for Apache HTTPd with related .htaccess file",
+		"homepageUrl": "",
+		"name": "mkdigauth",
+		"url": "https://github.com/remino/mkdigauth"
+	},
+	{
+		"description": "Generate album Web page with previews from a directory of photos",
+		"homepageUrl": "",
+		"name": "mkwebalbum",
+		"url": "https://github.com/remino/mkwebalbum"
+	},
+	{
+		"description": "Make new shell script executable file from template",
+		"homepageUrl": "",
+		"name": "mkx",
+		"url": "https://github.com/remino/mkx"
+	},
+	{
+		"description": "Convert video file into GIF or get info about the file",
+		"homepageUrl": "",
+		"name": "movie2gif",
+		"url": "https://github.com/remino/movie2gif"
+	},
+	{
+		"description": "Move files and directories to current directory using mv",
+		"homepageUrl": "",
+		"name": "mvh",
+		"url": "https://github.com/remino/mvh"
+	},
+	{
+		"description": "Move source files and directories to target and leave symlinks their place",
+		"homepageUrl": "",
+		"name": "mvln",
+		"url": "https://github.com/remino/mvln"
+	},
+	{
+		"description": "Move photos from memory card and transfer them into dated folders",
+		"homepageUrl": "",
+		"name": "mvpics",
+		"url": "https://github.com/remino/mvpics"
+	},
+	{
+		"description": "mysql2git: Dump MySQL databases into Git repo",
+		"homepageUrl": "",
+		"name": "mysql2git",
+		"url": "https://github.com/remino/mysql2git"
+	},
+	{
+		"description": "Plugin for Oh My Zsh to alias git aliases to g*",
+		"homepageUrl": "",
+		"name": "omz-plugin-git-aliases",
+		"url": "https://github.com/remino/omz-plugin-git-aliases"
+	},
+	{
+		"description": "Plugin for Oh My Zsh to add alias for MySQL with login path",
+		"homepageUrl": "",
+		"name": "omz-plugin-mysql-alias",
+		"url": "https://github.com/remino/omz-plugin-mysql-alias"
+	},
+	{
+		"description": "Template for Oh My Zsh plugin",
+		"homepageUrl": "",
+		"name": "omz-plugin-template",
+		"url": "https://github.com/remino/omz-plugin-template"
+	},
+	{
+		"description": "Container directory of pods to unify as a single site",
+		"homepageUrl": "",
+		"name": "podsite",
+		"url": "https://github.com/remino/podsite"
+	},
+	{
+		"description": "Generate podcast XML feed file from directory with audio files",
+		"homepageUrl": "",
+		"name": "podxmlgen",
+		"url": "https://github.com/remino/podxmlgen"
+	},
+	{
+		"description": "GitHub Profile",
+		"homepageUrl": "",
+		"name": "remino",
+		"url": "https://github.com/remino/remino"
+	},
+	{
+		"description": "remino.github.io",
+		"homepageUrl": "",
+		"name": "remino.github.io",
+		"url": "https://github.com/remino/remino.github.io"
+	},
+	{
+		"description": "Search and replace",
+		"homepageUrl": "",
+		"name": "sere",
+		"url": "https://github.com/remino/sere"
+	},
+	{
+		"description": "Collection of snippets and templates for various languages",
+		"homepageUrl": "",
+		"name": "snippets",
+		"url": "https://github.com/remino/snippets"
+	},
+	{
+		"description": "tarbu: Tar Backup",
+		"homepageUrl": "",
+		"name": "tarbu",
+		"url": "https://github.com/remino/tarbu"
+	},
+	{
+		"description": "Generic template for new repository.",
+		"homepageUrl": "",
+		"name": "template",
+		"url": "https://github.com/remino/template"
+	},
+	{
+		"description": "Template for JavaScript project",
+		"homepageUrl": "",
+		"name": "template-js",
+		"url": "https://github.com/remino/template-js"
+	},
+	{
+		"description": "HTTP proxy to the Wayback Machine (web.archive.org) for retro browsers",
+		"homepageUrl": "https://remino.net/retrosurfing/",
+		"name": "timeprox",
+		"url": "https://github.com/remino/timeprox"
+	},
+	{
+		"description": "Unify the content of multiple directories into one using symlinks",
+		"homepageUrl": "",
+		"name": "unidir",
+		"url": "https://github.com/remino/unidir"
+	},
+	{
+		"description": "Get the SHA-256 checksum of a file from a URL",
+		"homepageUrl": "",
+		"name": "urlsha",
+		"url": "https://github.com/remino/urlsha"
+	},
+	{
+		"description": "Collection of browser userscripts",
+		"homepageUrl": "",
+		"name": "userscripts",
+		"url": "https://github.com/remino/userscripts"
+	},
+	{
+		"description": "Do rapid changes to video files using ffmpeg or other tools",
+		"homepageUrl": "",
+		"name": "vidmod",
+		"url": "https://github.com/remino/vidmod"
+	},
+	{
+		"description": "Wait until a specified time",
+		"homepageUrl": "",
+		"name": "waituntil",
+		"url": "https://github.com/remino/waituntil"
+	},
+	{
+		"description": "Workspace for all remino projects on GitHub",
+		"homepageUrl": "",
+		"name": "workspace",
+		"url": "https://github.com/remino/workspace"
+	}
+]
