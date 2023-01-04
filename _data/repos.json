@@ -12,6 +12,12 @@
 		"url": "https://github.com/remino/dldirs"
 	},
 	{
+		"description": "Small collection of dotfiles",
+		"homepageUrl": "",
+		"name": "dotfiles",
+		"url": "https://github.com/remino/dotfiles"
+	},
+	{
 		"description": "Move files into separate directories named by their extensions",
 		"homepageUrl": "",
 		"name": "extdirs",
@@ -168,6 +174,12 @@
 		"url": "https://github.com/remino/omz-plugin-template"
 	},
 	{
+		"description": "Overlay directory onto another from a list of files using symlinks",
+		"homepageUrl": "",
+		"name": "overdir",
+		"url": "https://github.com/remino/overdir"
+	},
+	{
 		"description": "Container directory of pods to unify as a single site",
 		"homepageUrl": "",
 		"name": "podsite",
@@ -190,6 +202,12 @@
 		"homepageUrl": "https://remino.github.io/",
 		"name": "remino.github.io",
 		"url": "https://github.com/remino/remino.github.io"
+	},
+	{
+		"description": "JavaScript library using CSS variables to animate elements while user scrolls.",
+		"homepageUrl": "https://remino.github.io/scrollerful/",
+		"name": "scrollerful",
+		"url": "https://github.com/remino/scrollerful"
 	},
 	{
 		"description": "Search and replace",
@@ -234,6 +252,12 @@
 		"url": "https://github.com/remino/unidir"
 	},
 	{
+		"description": "Check the uptime status of a site",
+		"homepageUrl": "",
+		"name": "upcheck",
+		"url": "https://github.com/remino/upcheck"
+	},
+	{
 		"description": "Get the SHA-256 checksum of a file from a URL",
 		"homepageUrl": "",
 		"name": "urlsha",
@@ -256,11 +280,5 @@
 		"homepageUrl": "",
 		"name": "waituntil",
 		"url": "https://github.com/remino/waituntil"
-	},
-	{
-		"description": "Workspace for all remino projects on GitHub",
-		"homepageUrl": "",
-		"name": "workspace",
-		"url": "https://github.com/remino/workspace"
 	}
 ]
