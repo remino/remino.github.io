@@ -1,5 +1,11 @@
 [
 	{
+		"description": "Apply a watermark to an image file using ImageMagick",
+		"homepageUrl": "",
+		"name": "addwatermark",
+		"url": "https://github.com/remino/addwatermark"
+	},
+	{
 		"description": "Copy several disks one by one in a single directory",
 		"homepageUrl": "",
 		"name": "cpdisks",
