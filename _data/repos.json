@@ -180,6 +180,12 @@
 		"url": "https://github.com/remino/overdir"
 	},
 	{
+		"description": "Convert a single PNG file into a macOS icon file",
+		"homepageUrl": "",
+		"name": "png2icns",
+		"url": "https://github.com/remino/png2icns"
+	},
+	{
 		"description": "Container directory of pods to unify as a single site",
 		"homepageUrl": "",
 		"name": "podsite",
