@@ -228,6 +228,12 @@
 		"url": "https://github.com/remino/sere"
 	},
 	{
+		"description": "Rename files and directories using regular expressions via sed",
+		"homepageUrl": "",
+		"name": "serename",
+		"url": "https://github.com/remino/serename"
+	},
+	{
 		"description": "Collection of snippets and templates for various languages",
 		"homepageUrl": "",
 		"name": "snippets",
