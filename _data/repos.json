@@ -168,7 +168,7 @@
 		"url": "https://github.com/remino/omz-plugin-git-aliases"
 	},
 	{
-		"description": "",
+		"description": "Plugin for Oh My Zsh to add alias for MyCLI with login path.",
 		"homepageUrl": "",
 		"name": "omz-plugin-mycli-alias",
 		"url": "https://github.com/remino/omz-plugin-mycli-alias"
@@ -298,11 +298,5 @@
 		"homepageUrl": "",
 		"name": "waituntil",
 		"url": "https://github.com/remino/waituntil"
-	},
-	{
-		"description": "",
-		"homepageUrl": "",
-		"name": "zipdir",
-		"url": "https://github.com/remino/zipdir"
 	}
 ]
