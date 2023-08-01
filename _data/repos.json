@@ -168,6 +168,12 @@
 		"url": "https://github.com/remino/omz-plugin-git-aliases"
 	},
 	{
+		"description": "",
+		"homepageUrl": "",
+		"name": "omz-plugin-mycli-alias",
+		"url": "https://github.com/remino/omz-plugin-mycli-alias"
+	},
+	{
 		"description": "Plugin for Oh My Zsh to add alias for MySQL with login path",
 		"homepageUrl": "",
 		"name": "omz-plugin-mysql-alias",
@@ -226,12 +232,6 @@
 		"homepageUrl": "",
 		"name": "sere",
 		"url": "https://github.com/remino/sere"
-	},
-	{
-		"description": "Rename files and directories using regular expressions via sed",
-		"homepageUrl": "",
-		"name": "serename",
-		"url": "https://github.com/remino/serename"
 	},
 	{
 		"description": "Collection of snippets and templates for various languages",
@@ -298,5 +298,11 @@
 		"homepageUrl": "",
 		"name": "waituntil",
 		"url": "https://github.com/remino/waituntil"
+	},
+	{
+		"description": "",
+		"homepageUrl": "",
+		"name": "zipdir",
+		"url": "https://github.com/remino/zipdir"
 	}
 ]

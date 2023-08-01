@@ -1,7 +1,7 @@
 ---
 title: "remino@github"
 ---
-# ![remino logo][logo] {{ site.title }}
+# {{ site.title }}
 
 [github.com/remino][github]
 : **👋 Hi, I'm Rem, a Web developer in Japan.**  

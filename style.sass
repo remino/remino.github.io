@@ -3,16 +3,28 @@
 
 $color-primary: #c41483
 
+@mixin font-weight($weight)
+	font-variation-settings: "wght" $weight
+	font-weight: $weight
+
+@font-face
+	font-family: 'Inter var'
+	font-style: normal
+	font-weight: 100 900
+	font-display: swap
+	src: url('Inter-roman.var.woff2') format('woff2')
+	font-named-instance: 'Regular'
+
 \:root
+	--font-size-base: 16
 	--color-bg: #fff
 	--color-fg: #000
 	--color-primary: #{$color-primary}
 	--color-shadow: #{rgba($color-primary, 0.2)}
-	--logo-size: 5rem
 
 a
 	color: var(--color-primary)
-	display: block
+	display: inline-block
 	text-shadow: 0 0 0 var(--color-shadow)
 	transform: scale(1)
 	transform-origin: bottom left
@@ -26,10 +38,10 @@ a
 		transform: scale(1.2)
 
 body
+	@include font-weight(300)
 	background: var(--color-bg)
 	color: var(--color-fg)
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
-	font-weight: 300
+	font-family: 'Inter var', 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif
 	letter-spacing: 0.02em
 	line-height: 1.6
 	margin: 3rem 2rem
@@ -40,34 +52,38 @@ dd
 	margin: 0 0 2rem 0
 
 dt
-	font-size: 1.4rem
-	font-weight: 600
+	@include font-weight(600)
+	--font-size: calc(1.4 * var(--font-size-base))
+	font-size: calc(var(--font-size, 16) * 1px)
+	letter-spacing: unquote('calc((-0.0223 + 0.185 * exp(-0.1745 * var(--font-size, 16))) * 1px)')
+	line-height: unquote('var(--line-height, 1.4)')
 	margin: 2rem 0 0.5rem 0
 
 	> a
 		text-decoration: none
 
 h1
-	font-size: 2rem
-	font-weight: 300
+	@include font-weight(300)
+	--font-size: calc(2 * var(--font-size-base))
+	font-size: calc(var(--font-size, 16) * 1px)
+	letter-spacing: unquote('calc((-0.0223 + 0.185 * exp(-0.1745 * var(--font-size, 16))) * 1px)')
 	line-height: var(--logo-size)
 	margin: 1em auto
 	text-transform: lowercase
-
-	> img
-		border-radius: 100%
-		display: block
-		float: left
-		height: auto
-		margin-left: calc((var(--logo-size) + 1rem) * -1)
-		margin-right: 1rem
-		width: var(--logo-size)
 
 hr
 	border: 0
 	border-bottom: 1px solid var(--color-primary)
 	margin: 2rem 0
 	opacity: 0.5
+
+html
+	--font-size: var(--font-size-base)
+	--letter-spacing: 2
+	--line-height: 2
+	font-size: calc(var(--font-size, 16) * 1px)
+	letter-spacing: unquote('calc((-0.0223 + 0.185 * exp(-0.1745 * var(--font-size, 16))) * 1px)')
+	line-height: unquote('var(--line-height, 1.4)')
 
 main
 	box-sizing: border-box
@@ -76,19 +92,12 @@ main
 	min-width: 15rem
 	padding-left: calc((var(--logo-size) + 1rem))
 
+strong
+	@include font-weight(500)
+
 @media (prefers-color-scheme: dark)
 	\:root
-		--color-bg: #333
+		--color-bg: #000
 		--color-fg: #fff
 		--color-primary: #{lighten($color-primary, 10%)}
 		--color-shadow: #{rgba($color-primary, 1)}
-
-@media (max-width: 38rem)
-	h1 > img
-		margin-left: 0
-
-	main
-		padding-left: 0
-
-strong
-	font-weight: 500
