@@ -25,6 +25,7 @@ $color-primary: #c41483
 a
 	color: var(--color-primary)
 	display: inline-block
+	text-decoration: none
 	text-shadow: 0 0 0 var(--color-shadow)
 	transform: scale(1)
 	transform-origin: bottom left
@@ -44,9 +45,11 @@ body
 	font-family: 'Inter var', 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif
 	letter-spacing: 0.02em
 	line-height: 1.6
-	margin: 3rem 2rem
+	margin: 3rem auto
+	max-width: 35rem
 	min-height: 100%
-	padding: 0
+	min-width: 15rem
+	padding: 0 2rem
 
 dd
 	margin: 0 0 2rem 0
@@ -59,16 +62,13 @@ dt
 	line-height: unquote('var(--line-height, 1.4)')
 	margin: 2rem 0 0.5rem 0
 
-	> a
-		text-decoration: none
-
 h1
 	@include font-weight(300)
 	--font-size: calc(2 * var(--font-size-base))
 	font-size: calc(var(--font-size, 16) * 1px)
 	letter-spacing: unquote('calc((-0.0223 + 0.185 * exp(-0.1745 * var(--font-size, 16))) * 1px)')
 	line-height: var(--logo-size)
-	margin: 1em auto
+	margin: 2rem auto 1rem
 	text-transform: lowercase
 
 hr
@@ -88,9 +88,23 @@ html
 main
 	box-sizing: border-box
 	margin: 0 auto
-	max-width: 35rem
-	min-width: 15rem
 	padding-left: calc((var(--logo-size) + 1rem))
+
+menu
+	display: flex
+	gap: 2rem
+	flex-flow: row wrap
+	list-style: none
+
+	&, > li
+		margin: 0
+		padding: 0
+
+	.right
+		margin-left: auto
+
+		a
+			transform-origin: bottom right
 
 strong
 	@include font-weight(500)

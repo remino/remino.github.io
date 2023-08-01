@@ -1,10 +1,10 @@
 ---
 title: "remino@github"
 ---
+
 # {{ site.title }}
 
-[github.com/remino][github]
-: **👋 Hi, I'm Rem, a Web developer in Japan.**  
+**👋 Hi, I'm Rem, a Web developer in Japan.**  
 Above is a link to my profile, and below are my public repos of scripts and other things on GitHub.
 
 ---
