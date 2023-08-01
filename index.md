@@ -16,4 +16,3 @@ Above is a link to my profile, and below are my public repos of scripts and othe
 {% endfor %}
 
 [github]: https://github.com/remino
-[logo]: https://avatars.githubusercontent.com/u/29999
