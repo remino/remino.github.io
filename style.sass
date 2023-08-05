@@ -3,9 +3,32 @@
 
 $color-primary: #c41483
 
+@mixin delay($delay)
+	animation-delay: $delay
+
 @mixin font-weight($weight)
 	font-variation-settings: "wght" $weight
 	font-weight: $weight
+
+%reveal
+	animation: reveal 0.2s steps(8) backwards
+	clip-path: inset(-100% -100% -100% -100%)
+	overflow: visible
+	position: relative
+	max-width: 100%
+	width: max-content
+
+@keyframes reveal
+	0%
+		clip-path: inset(0 100% 0 0)
+	100%
+		clip-path: inset(0 0 0 0)
+
+@keyframes reveal-down
+	0%
+		clip-path: inset(0 0 100% 0)
+	100%
+		clip-path: inset(0 0 0 0)
 
 @font-face
 	font-family: 'Inter var'
@@ -52,9 +75,14 @@ body
 	padding: 0 2rem
 
 dd
+	@extend %reveal
+	@include delay(0.6s)
+	animation-name: reveal-down
 	margin: 0 0 2rem 0
 
 dt
+	@extend %reveal
+	@include delay(0.4s)
 	@include font-weight(600)
 	--font-size: calc(1.4 * var(--font-size-base))
 	font-size: calc(var(--font-size, 16) * 1px)
@@ -63,12 +91,13 @@ dt
 	margin: 2rem 0 0.5rem 0
 
 h1
+	@extend %reveal
 	@include font-weight(300)
 	--font-size: calc(2 * var(--font-size-base))
 	font-size: calc(var(--font-size, 16) * 1px)
 	letter-spacing: unquote('calc((-0.0223 + 0.185 * exp(-0.1745 * var(--font-size, 16))) * 1px)')
 	line-height: var(--logo-size)
-	margin: 2rem auto 1rem
+	margin: 2rem 0 1rem
 	text-transform: lowercase
 
 hr
@@ -100,11 +129,14 @@ menu
 		margin: 0
 		padding: 0
 
-	.right
-		margin-left: auto
+	> li
+		@extend %reveal
+		@include delay(0.8s)
 
-		a
-			transform-origin: bottom right
+p
+	@extend %reveal
+	@include delay(0.2s)
+	animation-name: reveal-down
 
 strong
 	@include font-weight(500)
