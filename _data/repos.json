@@ -54,6 +54,12 @@
 		"url": "https://github.com/remino/getup"
 	},
 	{
+		"description": "Copy a local git repository from one location to another",
+		"homepageUrl": "",
+		"name": "git-dup",
+		"url": "https://github.com/remino/git-dup"
+	},
+	{
 		"description": "Library of hashtag helpers",
 		"homepageUrl": "https://www.npmjs.com/package/hashtagalong",
 		"name": "hashtagalong",
@@ -64,6 +70,12 @@
 		"homepageUrl": "",
 		"name": "homebrew-remino",
 		"url": "https://github.com/remino/homebrew-remino"
+	},
+	{
+		"description": "A dumb HTTPS proxy that generates a self-signed certificate on startup",
+		"homepageUrl": "",
+		"name": "https-proxy",
+		"url": "https://github.com/remino/https-proxy"
 	},
 	{
 		"description": "List network interfaces and their IP addresses",
@@ -100,6 +112,12 @@
 		"homepageUrl": "https://remino.github.io/mansite/",
 		"name": "mansite",
 		"url": "https://github.com/remino/mansite"
+	},
+	{
+		"description": "Follow many files through less at once",
+		"homepageUrl": "",
+		"name": "manyless",
+		"url": "https://github.com/remino/manyless"
 	},
 	{
 		"description": "Create .htaccess file for Apache HTTPd to show a stylised directory index",
@@ -160,6 +178,12 @@
 		"homepageUrl": "",
 		"name": "mysql2git",
 		"url": "https://github.com/remino/mysql2git"
+	},
+	{
+		"description": "Output account credentials from a netrc file",
+		"homepageUrl": "",
+		"name": "netrc",
+		"url": "https://github.com/remino/netrc"
 	},
 	{
 		"description": "Plugin for Oh My Zsh to alias git aliases to g*",
