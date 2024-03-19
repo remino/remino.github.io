@@ -258,6 +258,12 @@
 		"url": "https://github.com/remino/sere"
 	},
 	{
+		"description": "Sandbox Pages",
+		"homepageUrl": "https://remino.github.io/shards",
+		"name": "shards",
+		"url": "https://github.com/remino/shards"
+	},
+	{
 		"description": "Collection of snippets and templates for various languages",
 		"homepageUrl": "",
 		"name": "snippets",
