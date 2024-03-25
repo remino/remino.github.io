@@ -246,6 +246,12 @@
 		"url": "https://github.com/remino/remino.github.io"
 	},
 	{
+		"description": "Small library to run snippets of HTML, CSS, and JavaScript in place",
+		"homepageUrl": "https://remino.net/runsnip/",
+		"name": "runsnip",
+		"url": "https://github.com/remino/runsnip"
+	},
+	{
 		"description": "JavaScript library using CSS variables to animate elements while user scrolls.",
 		"homepageUrl": "https://remino.net/scrollerful/",
 		"name": "scrollerful",
