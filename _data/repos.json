@@ -108,6 +108,12 @@
 		"url": "https://github.com/remino/maconf"
 	},
 	{
+		"description": "ImageMagick Lossless AVIF Issue?",
+		"homepageUrl": "",
+		"name": "magick-lossless-avif-issue",
+		"url": "https://github.com/remino/magick-lossless-avif-issue"
+	},
+	{
 		"description": "Plain and simple Middleman site template",
 		"homepageUrl": "https://remino.github.io/mansite/",
 		"name": "mansite",
@@ -234,6 +240,12 @@
 		"url": "https://github.com/remino/podxmlgen"
 	},
 	{
+		"description": "",
+		"homepageUrl": "",
+		"name": "postcss-sass-sample",
+		"url": "https://github.com/remino/postcss-sass-sample"
+	},
+	{
 		"description": "GitHub Profile",
 		"homepageUrl": "",
 		"name": "remino",
@@ -246,13 +258,19 @@
 		"url": "https://github.com/remino/remino.github.io"
 	},
 	{
+		"description": "Outputs the RÉMINO logo in ASCII art and ANSI colours",
+		"homepageUrl": "",
+		"name": "rmnlogo",
+		"url": "https://github.com/remino/rmnlogo"
+	},
+	{
 		"description": "Small library to run snippets of HTML, CSS, and JavaScript in place",
 		"homepageUrl": "https://remino.net/runsnip/",
 		"name": "runsnip",
 		"url": "https://github.com/remino/runsnip"
 	},
 	{
-		"description": "JavaScript library using CSS variables to animate elements while user scrolls.",
+		"description": "Small JS & CSS library for scroll animations",
 		"homepageUrl": "https://remino.net/scrollerful/",
 		"name": "scrollerful",
 		"url": "https://github.com/remino/scrollerful"
@@ -274,6 +292,12 @@
 		"homepageUrl": "",
 		"name": "snippets",
 		"url": "https://github.com/remino/snippets"
+	},
+	{
+		"description": "",
+		"homepageUrl": "",
+		"name": "switchcp",
+		"url": "https://github.com/remino/switchcp"
 	},
 	{
 		"description": "tarbu: Tar Backup",
