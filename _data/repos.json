@@ -270,6 +270,12 @@
 		"url": "https://github.com/remino/runsnip"
 	},
 	{
+		"description": "Convert Safari binary cookies to Netscape cookies",
+		"homepageUrl": "",
+		"name": "safaricookies",
+		"url": "https://github.com/remino/safaricookies"
+	},
+	{
 		"description": "Small JS & CSS library for scroll animations",
 		"homepageUrl": "https://remino.net/scrollerful/",
 		"name": "scrollerful",
