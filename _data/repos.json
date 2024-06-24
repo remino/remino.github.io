@@ -336,6 +336,12 @@
 		"url": "https://github.com/remino/unidir"
 	},
 	{
+		"description": "Unzip archive into directory",
+		"homepageUrl": "",
+		"name": "unzip2dir",
+		"url": "https://github.com/remino/unzip2dir"
+	},
+	{
 		"description": "Check the uptime status of a site",
 		"homepageUrl": "",
 		"name": "upcheck",
