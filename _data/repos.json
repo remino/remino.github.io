@@ -246,6 +246,12 @@
 		"url": "https://github.com/remino/postcss-sass-sample"
 	},
 	{
+		"description": "Remove tracking parameters from URLs",
+		"homepageUrl": "",
+		"name": "purifyurl",
+		"url": "https://github.com/remino/purifyurl"
+	},
+	{
 		"description": "GitHub Profile",
 		"homepageUrl": "",
 		"name": "remino",
