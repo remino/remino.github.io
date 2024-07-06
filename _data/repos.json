@@ -198,6 +198,12 @@
 		"url": "https://github.com/remino/omz-plugin-git-aliases"
 	},
 	{
+		"description": "Plugin for Oh My Zsh to make your iTerm2 tmux tabs colourful",
+		"homepageUrl": "",
+		"name": "omz-plugin-iterm2-tmux-color-tabs",
+		"url": "https://github.com/remino/omz-plugin-iterm2-tmux-color-tabs"
+	},
+	{
 		"description": "Plugin for Oh My Zsh to add alias for MyCLI with login path.",
 		"homepageUrl": "",
 		"name": "omz-plugin-mycli-alias",
