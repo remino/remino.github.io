@@ -367,7 +367,7 @@
 	},
 	{
 		"description": "Collection of browser userscripts",
-		"homepageUrl": "",
+		"homepageUrl": "https://remino.github.io/userscripts/",
 		"name": "userscripts",
 		"url": "https://github.com/remino/userscripts"
 	},
