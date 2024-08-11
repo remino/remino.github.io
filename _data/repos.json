@@ -126,6 +126,12 @@
 		"url": "https://github.com/remino/manyless"
 	},
 	{
+		"description": "",
+		"homepageUrl": "",
+		"name": "middleman-reslib",
+		"url": "https://github.com/remino/middleman-reslib"
+	},
+	{
 		"description": "Create .htaccess file for Apache HTTPd to show a stylised directory index",
 		"homepageUrl": "",
 		"name": "mkadindex",
