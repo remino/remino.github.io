@@ -300,6 +300,12 @@
 		"url": "https://github.com/remino/scrollerful"
 	},
 	{
+		"description": "Minimal class-less CSS for semantic HTML",
+		"homepageUrl": "https://remino.net/semcss/",
+		"name": "semcss",
+		"url": "https://github.com/remino/semcss"
+	},
+	{
 		"description": "Search and replace",
 		"homepageUrl": "",
 		"name": "sere",
