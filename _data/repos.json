@@ -282,6 +282,12 @@
 		"url": "https://github.com/remino/remino.github.io"
 	},
 	{
+		"description": "",
+		"homepageUrl": "",
+		"name": "reslib",
+		"url": "https://github.com/remino/reslib"
+	},
+	{
 		"description": "Outputs the RÉMINO logo in ASCII art and ANSI colours",
 		"homepageUrl": "",
 		"name": "rmnlogo",
