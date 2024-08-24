@@ -24,6 +24,12 @@
 		"url": "https://github.com/remino/dotfiles"
 	},
 	{
+		"description": "Stylish sortable autoindex template for nginx",
+		"homepageUrl": "https://remino.github.io/elegant-autoindex/",
+		"name": "elegant-autoindex",
+		"url": "https://github.com/remino/elegant-autoindex"
+	},
+	{
 		"description": "Move files into separate directories named by their extensions",
 		"homepageUrl": "",
 		"name": "extdirs",
