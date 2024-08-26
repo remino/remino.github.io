@@ -156,6 +156,12 @@
 		"url": "https://github.com/remino/mkdigauth"
 	},
 	{
+		"description": "Create a dated project directory",
+		"homepageUrl": "",
+		"name": "mkprj",
+		"url": "https://github.com/remino/mkprj"
+	},
+	{
 		"description": "Generate album Web page with previews from a directory of photos",
 		"homepageUrl": "",
 		"name": "mkwebalbum",
