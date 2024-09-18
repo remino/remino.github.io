@@ -24,6 +24,12 @@
 		"url": "https://github.com/remino/dotfiles"
 	},
 	{
+		"description": "The little black dress of CSS",
+		"homepageUrl": "https://remino.net/dress.css/",
+		"name": "dress.css",
+		"url": "https://github.com/remino/dress.css"
+	},
+	{
 		"description": "Stylish sortable autoindex template for nginx",
 		"homepageUrl": "https://remino.github.io/elegant-autoindex/",
 		"name": "elegant-autoindex",
@@ -316,12 +322,6 @@
 		"homepageUrl": "https://remino.net/scrollerful/",
 		"name": "scrollerful",
 		"url": "https://github.com/remino/scrollerful"
-	},
-	{
-		"description": "Minimal class-less CSS for semantic HTML",
-		"homepageUrl": "https://remino.net/semcss/",
-		"name": "semcss",
-		"url": "https://github.com/remino/semcss"
 	},
 	{
 		"description": "Search and replace",
