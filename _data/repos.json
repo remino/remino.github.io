@@ -72,6 +72,12 @@
 		"url": "https://github.com/remino/git-dup"
 	},
 	{
+		"description": "Config for Hammerspoon",
+		"homepageUrl": "",
+		"name": "hammerspoon",
+		"url": "https://github.com/remino/hammerspoon"
+	},
+	{
 		"description": "Library of hashtag helpers",
 		"homepageUrl": "https://www.npmjs.com/package/hashtagalong",
 		"name": "hashtagalong",
