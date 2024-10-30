@@ -60,6 +60,12 @@
 		"url": "https://github.com/remino/fizzbuzz"
 	},
 	{
+		"description": "Collection of custom Figlet fonts",
+		"homepageUrl": "",
+		"name": "flf",
+		"url": "https://github.com/remino/flf"
+	},
+	{
 		"description": "Get up and run some things",
 		"homepageUrl": "",
 		"name": "getup",
