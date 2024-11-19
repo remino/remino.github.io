@@ -234,6 +234,12 @@
 		"url": "https://github.com/remino/netrc"
 	},
 	{
+		"description": "nvim config — fork of NvChad starter",
+		"homepageUrl": "",
+		"name": "nvim",
+		"url": "https://github.com/remino/nvim"
+	},
+	{
 		"description": "Plugin for Oh My Zsh to alias git aliases to g*",
 		"homepageUrl": "",
 		"name": "omz-plugin-git-aliases",
