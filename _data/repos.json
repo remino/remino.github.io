@@ -54,6 +54,12 @@
 		"url": "https://github.com/remino/findfile"
 	},
 	{
+		"description": "",
+		"homepageUrl": "",
+		"name": "firefox-style",
+		"url": "https://github.com/remino/firefox-style"
+	},
+	{
 		"description": "From 1 to 100",
 		"homepageUrl": "",
 		"name": "fizzbuzz",
