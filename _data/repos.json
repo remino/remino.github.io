@@ -162,6 +162,12 @@
 		"url": "https://github.com/remino/middleman-reslib"
 	},
 	{
+		"description": "",
+		"homepageUrl": "",
+		"name": "miniflux-css",
+		"url": "https://github.com/remino/miniflux-css"
+	},
+	{
 		"description": "Create .htaccess file for Apache HTTPd to show a stylised directory index",
 		"homepageUrl": "",
 		"name": "mkadindex",
