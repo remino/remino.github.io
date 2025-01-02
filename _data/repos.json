@@ -270,6 +270,12 @@
 		"url": "https://github.com/remino/omz-plugin-mysql-alias"
 	},
 	{
+		"description": "",
+		"homepageUrl": "",
+		"name": "omz-plugin-pj",
+		"url": "https://github.com/remino/omz-plugin-pj"
+	},
+	{
 		"description": "Template for Oh My Zsh plugin",
 		"homepageUrl": "",
 		"name": "omz-plugin-template",
@@ -334,6 +340,12 @@
 		"homepageUrl": "",
 		"name": "rmnlogo",
 		"url": "https://github.com/remino/rmnlogo"
+	},
+	{
+		"description": "Deploy directory to remote server by using rsync",
+		"homepageUrl": "",
+		"name": "rsdeploy",
+		"url": "https://github.com/remino/rsdeploy"
 	},
 	{
 		"description": "Small library to run snippets of HTML, CSS, and JavaScript in place",
