@@ -390,7 +390,7 @@
 		"url": "https://github.com/remino/snippets"
 	},
 	{
-		"description": "",
+		"description": "Copy files from old Switch microSD card to new one",
 		"homepageUrl": "",
 		"name": "switchcp",
 		"url": "https://github.com/remino/switchcp"
