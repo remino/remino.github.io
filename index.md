@@ -11,7 +11,7 @@ Above is a link to my profile, and below are my public repos of scripts and othe
 
 {% for repo in site.data.repos %}
 [{{ repo.name }}]({% if repo.homepageUrl != "" %}{{ repo.homepageUrl }}{% else %}{{ repo.url }}{% endif %})
-: {{#repo.description}}{{ repo.description }}.{{/repo.description}}{{^repo.description}}Repository.{{/repo.description}}
+: {{ repo.description }}.
 
 {% endfor %}
 
