@@ -360,6 +360,12 @@
 		"url": "https://github.com/remino/safaricookies"
 	},
 	{
+		"description": "Plugin to browse scraps (snippets) directory in Neovim",
+		"homepageUrl": "",
+		"name": "scraps.nvim",
+		"url": "https://github.com/remino/scraps.nvim"
+	},
+	{
 		"description": "Small JS & CSS library for scroll animations",
 		"homepageUrl": "https://remino.net/scrollerful/",
 		"name": "scrollerful",
