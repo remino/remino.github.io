@@ -120,6 +120,12 @@
 		"url": "https://github.com/remino/igframe"
 	},
 	{
+		"description": "Personal iTerm profile and colour theme",
+		"homepageUrl": "",
+		"name": "iterm",
+		"url": "https://github.com/remino/iterm"
+	},
+	{
 		"description": "Plain and simple Jekyll site template ideal for GitHub Pages",
 		"homepageUrl": "https://remino.github.io/jeksite/",
 		"name": "jeksite",
