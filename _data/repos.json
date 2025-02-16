@@ -270,7 +270,7 @@
 		"url": "https://github.com/remino/omz-plugin-mysql-alias"
 	},
 	{
-		"description": "",
+		"description": "Fork of Oh My Zsh pj plugin",
 		"homepageUrl": "",
 		"name": "omz-plugin-pj",
 		"url": "https://github.com/remino/omz-plugin-pj"
