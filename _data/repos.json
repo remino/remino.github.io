@@ -12,12 +12,6 @@
 		"url": "https://github.com/remino/cpdisks"
 	},
 	{
-		"description": "Manage download directories",
-		"homepageUrl": "",
-		"name": "dldirs",
-		"url": "https://github.com/remino/dldirs"
-	},
-	{
 		"description": "Small collection of dotfiles",
 		"homepageUrl": "",
 		"name": "dotfiles",
