@@ -6,10 +6,28 @@
 		"url": "https://github.com/remino/addwatermark"
 	},
 	{
+		"description": "",
+		"homepageUrl": "",
+		"name": "base46-cyberwave.nvim",
+		"url": "https://github.com/remino/base46-cyberwave.nvim"
+	},
+	{
 		"description": "Copy several disks one by one in a single directory",
 		"homepageUrl": "",
 		"name": "cpdisks",
 		"url": "https://github.com/remino/cpdisks"
+	},
+	{
+		"description": "Themes and profiles for various apps",
+		"homepageUrl": "",
+		"name": "customized",
+		"url": "https://github.com/remino/customized"
+	},
+	{
+		"description": "Sandbox Pages",
+		"homepageUrl": "https://remino.github.io/demo/",
+		"name": "demo",
+		"url": "https://github.com/remino/demo"
 	},
 	{
 		"description": "Small collection of dotfiles",
@@ -46,12 +64,6 @@
 		"homepageUrl": "",
 		"name": "findfile",
 		"url": "https://github.com/remino/findfile"
-	},
-	{
-		"description": "Firefox styling for the browser and dev tools",
-		"homepageUrl": "",
-		"name": "firefox-style",
-		"url": "https://github.com/remino/firefox-style"
 	},
 	{
 		"description": "From 1 to 100",
@@ -120,12 +132,6 @@
 		"url": "https://github.com/remino/igframe"
 	},
 	{
-		"description": "Personal iTerm profile and colour theme",
-		"homepageUrl": "",
-		"name": "iterm",
-		"url": "https://github.com/remino/iterm"
-	},
-	{
 		"description": "Plain and simple Jekyll site template ideal for GitHub Pages",
 		"homepageUrl": "https://remino.github.io/jeksite/",
 		"name": "jeksite",
@@ -160,12 +166,6 @@
 		"homepageUrl": "",
 		"name": "middleman-reslib",
 		"url": "https://github.com/remino/middleman-reslib"
-	},
-	{
-		"description": "CSS for Miniflux",
-		"homepageUrl": "",
-		"name": "miniflux-css",
-		"url": "https://github.com/remino/miniflux-css"
 	},
 	{
 		"description": "Create .htaccess file for Apache HTTPd to show a stylised directory index",
@@ -318,6 +318,12 @@
 		"url": "https://github.com/remino/purifyurl"
 	},
 	{
+		"description": "",
+		"homepageUrl": "",
+		"name": "randgen",
+		"url": "https://github.com/remino/randgen"
+	},
+	{
 		"description": "GitHub Profile",
 		"homepageUrl": "",
 		"name": "remino",
@@ -376,12 +382,6 @@
 		"homepageUrl": "",
 		"name": "sere",
 		"url": "https://github.com/remino/sere"
-	},
-	{
-		"description": "Sandbox Pages",
-		"homepageUrl": "https://remino.github.io/shards",
-		"name": "shards",
-		"url": "https://github.com/remino/shards"
 	},
 	{
 		"description": "Collection of snippets and templates for various languages",
