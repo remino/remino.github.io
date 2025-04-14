@@ -78,6 +78,12 @@
 		"url": "https://github.com/remino/flf"
 	},
 	{
+		"description": "Generate and view documentation for a Ruby gem",
+		"homepageUrl": "",
+		"name": "gemdocs",
+		"url": "https://github.com/remino/gemdocs"
+	},
+	{
 		"description": "Get up and run some things",
 		"homepageUrl": "",
 		"name": "getup",
