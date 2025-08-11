@@ -12,6 +12,12 @@
 		"url": "https://github.com/remino/base46-cyberwave.nvim"
 	},
 	{
+		"description": "macOS App to copy URL to clipboard",
+		"homepageUrl": "",
+		"name": "copy-url",
+		"url": "https://github.com/remino/copy-url"
+	},
+	{
 		"description": "Copy several disks one by one in a single directory",
 		"homepageUrl": "",
 		"name": "cpdisks",
@@ -36,7 +42,7 @@
 		"url": "https://github.com/remino/dotfiles"
 	},
 	{
-		"description": "The little black dress of CSS",
+		"description": "The little dress of CSS",
 		"homepageUrl": "https://remino.net/dress.css/",
 		"name": "dress.css",
 		"url": "https://github.com/remino/dress.css"
@@ -204,7 +210,7 @@
 		"url": "https://github.com/remino/mkwebalbum"
 	},
 	{
-		"description": "Make new shell script executable file from template",
+		"description": "A script to make scripts",
 		"homepageUrl": "",
 		"name": "mkx",
 		"url": "https://github.com/remino/mkx"
@@ -348,6 +354,12 @@
 		"url": "https://github.com/remino/reslib"
 	},
 	{
+		"description": "Coding in 1994 was a vibe",
+		"homepageUrl": "",
+		"name": "retrovibe",
+		"url": "https://github.com/remino/retrovibe"
+	},
+	{
 		"description": "Outputs the RÉMINO logo in ASCII art and ANSI colours",
 		"homepageUrl": "",
 		"name": "rmnlogo",
@@ -460,6 +472,12 @@
 		"homepageUrl": "",
 		"name": "vidmod",
 		"url": "https://github.com/remino/vidmod"
+	},
+	{
+		"description": "Better than jQuery",
+		"homepageUrl": "",
+		"name": "vquery",
+		"url": "https://github.com/remino/vquery"
 	},
 	{
 		"description": "Wait until a specified time",
