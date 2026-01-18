@@ -60,12 +60,6 @@
 		"url": "https://github.com/remino/extdirs"
 	},
 	{
-		"description": "Convert file to base64 data URL",
-		"homepageUrl": "",
-		"name": "file2dataurl",
-		"url": "https://github.com/remino/file2dataurl"
-	},
-	{
 		"description": "Quickly find a file by pattern in the current directory using ‘find’",
 		"homepageUrl": "",
 		"name": "findfile",
@@ -210,12 +204,6 @@
 		"url": "https://github.com/remino/mkwebalbum"
 	},
 	{
-		"description": "A script to make scripts",
-		"homepageUrl": "",
-		"name": "mkx",
-		"url": "https://github.com/remino/mkx"
-	},
-	{
 		"description": "Convert video file into GIF or get info about the file",
 		"homepageUrl": "",
 		"name": "movie2gif",
@@ -258,40 +246,10 @@
 		"url": "https://github.com/remino/nvim"
 	},
 	{
-		"description": "Plugin for Oh My Zsh to alias git aliases to g*",
+		"description": "",
 		"homepageUrl": "",
-		"name": "omz-plugin-git-aliases",
-		"url": "https://github.com/remino/omz-plugin-git-aliases"
-	},
-	{
-		"description": "Plugin for Oh My Zsh to make your iTerm2 tmux tabs colourful",
-		"homepageUrl": "",
-		"name": "omz-plugin-iterm2-tmux-color-tabs",
-		"url": "https://github.com/remino/omz-plugin-iterm2-tmux-color-tabs"
-	},
-	{
-		"description": "Plugin for Oh My Zsh to add alias for MyCLI with login path.",
-		"homepageUrl": "",
-		"name": "omz-plugin-mycli-alias",
-		"url": "https://github.com/remino/omz-plugin-mycli-alias"
-	},
-	{
-		"description": "Plugin for Oh My Zsh to add alias for MySQL with login path",
-		"homepageUrl": "",
-		"name": "omz-plugin-mysql-alias",
-		"url": "https://github.com/remino/omz-plugin-mysql-alias"
-	},
-	{
-		"description": "Fork of Oh My Zsh pj plugin",
-		"homepageUrl": "",
-		"name": "omz-plugin-pj",
-		"url": "https://github.com/remino/omz-plugin-pj"
-	},
-	{
-		"description": "Template for Oh My Zsh plugin",
-		"homepageUrl": "",
-		"name": "omz-plugin-template",
-		"url": "https://github.com/remino/omz-plugin-template"
+		"name": "omz-plugin",
+		"url": "https://github.com/remino/omz-plugin"
 	},
 	{
 		"description": "Overlay directory onto another from a list of files using symlinks",
@@ -348,6 +306,12 @@
 		"url": "https://github.com/remino/remino.github.io"
 	},
 	{
+		"description": "Collection of utility scripts",
+		"homepageUrl": "",
+		"name": "remutils",
+		"url": "https://github.com/remino/remutils"
+	},
+	{
 		"description": "",
 		"homepageUrl": "",
 		"name": "reslib",
@@ -364,12 +328,6 @@
 		"homepageUrl": "",
 		"name": "rmnlogo",
 		"url": "https://github.com/remino/rmnlogo"
-	},
-	{
-		"description": "Deploy directory to remote server by using rsync",
-		"homepageUrl": "",
-		"name": "rsdeploy",
-		"url": "https://github.com/remino/rsdeploy"
 	},
 	{
 		"description": "Small library to run snippets of HTML, CSS, and JavaScript in place",
@@ -478,11 +436,5 @@
 		"homepageUrl": "",
 		"name": "vquery",
 		"url": "https://github.com/remino/vquery"
-	},
-	{
-		"description": "Wait until a specified time",
-		"homepageUrl": "",
-		"name": "waituntil",
-		"url": "https://github.com/remino/waituntil"
 	}
 ]
