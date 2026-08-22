@@ -8,6 +8,12 @@
 	{
 		"description": "",
 		"homepageUrl": "",
+		"name": "agentspace",
+		"url": "https://github.com/remino/agentspace"
+	},
+	{
+		"description": "",
+		"homepageUrl": "",
 		"name": "base46-cyberwave.nvim",
 		"url": "https://github.com/remino/base46-cyberwave.nvim"
 	},
